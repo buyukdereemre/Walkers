@@ -7,7 +7,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["jest"],
+    "types": ["node", "jest"],
     "paths": {
       "@/*": ["./src/*"]
     }
