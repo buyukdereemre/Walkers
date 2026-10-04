@@ -1,0 +1,7 @@
+# Tüm metin dosyaları repoda LF satır sonuyla saklanır (Windows ve CI aynı içeriği görür).
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ttf binary
+*.otf binary
