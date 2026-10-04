@@ -7,10 +7,10 @@ React Native + Expo (development build) + TypeScript istemci, Supabase backend.
 
 ## Branch düzeni
 
-| Branch | Amaç |
-| --- | --- |
-| `main` | Her zaman stabil, çalışan sürüm |
-| `develop` | Aktif geliştirme; tamamlanan fazlar buraya birleşir |
+| Branch          | Amaç                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------- |
+| `main`          | Her zaman stabil, çalışan sürüm                                                        |
+| `develop`       | Aktif geliştirme; tamamlanan fazlar buraya birleşir                                    |
 | `feature/<faz>` | Her faz kendi dalında geliştirilir (`feature/project-foundation`, `feature/auth`, ...) |
 
 Akış: `develop`'tan `feature/<faz>` açılır, faz test edilip onaylanınca `develop`'a birleşir; `develop` stabil olduğunda `main`'e alınır.
